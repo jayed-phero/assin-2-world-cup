@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*---------------
+head-content
+----------------*/
+
+.container{
+    display: flex;
+    width: 1321px;
+    height: 685px;
+    margin-left: 101px;
+    margin-top: 50px;
+    background: #161616;
+    border-radius: 30px;
+}
+
+.container .head-content{
+    margin-top: 117px;
+    margin-left: 105px;
+}
+
+.head-content h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    padding-bottom: 31px;
+    color: #ffffff;
+}
+
+.head-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 51px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.head-content a{
+    text-decoration: none;
+    padding: 16px 25px;
+    color: #ffffff;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+.head-content i{
+    padding-left: 9px;
+}
+
+.container img{
+    width: 501px;
+    margin-top: 35px;
+    margin-left: 81px;
+    margin-right: 55px;
+}
+
+/*Media Qurries*/
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        margin: 25px 25px;
+        margin-right: 25px;
+    }
+
+     .container .head-content{
+       padding: 25px 35px;
+       margin: 5px 35px;
+       text-align: center;
+
+    }
+
+    .head-content h1{
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    .head-content p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;  
+    }
+
+    .container img{
+        width: 100%;
+        padding: 0px 55px;
+        margin-left: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .container{
+        height: auto;
+        width: 93%;
+        margin: 55px 35px;
+    }
+
+    .container .head-content{
+        margin-top: 55px;
+        margin-left: 55px;
+    }
+ 
+     .head-content h1{
+         font-weight: 700;
+         font-size: 35px;
+         line-height: 35px;
+         padding-bottom: 15px;
+     }
+ 
+     .head-content p{
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 15px; 
+         padding-bottom: 25px; 
+     }
+
+
+     .head-content a{
+        padding: 5px 15px;
+    }
+
+    .container img{
+        margin-right: 35px;
+        margin-left: 11px;
+    }
+    
+}
